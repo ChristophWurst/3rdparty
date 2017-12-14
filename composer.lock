@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "4e7a5d85f0c0757a5ac7de0b8ab4c84a",
+    "content-hash": "873507a49de8e1fda87c8df629d3325d",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -1333,16 +1333,16 @@
         },
         {
             "name": "lukasreschke/id3parser",
-            "version": "v0.0.1",
+            "version": "v0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/LukasReschke/ID3Parser.git",
-                "reference": "cd3ba6e8918cc30883f01a3c24281cfe23b8877a"
+                "reference": "62f4de76d4eaa9ea13c66dacc1f22977dace6638"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/LukasReschke/ID3Parser/zipball/cd3ba6e8918cc30883f01a3c24281cfe23b8877a",
-                "reference": "cd3ba6e8918cc30883f01a3c24281cfe23b8877a",
+                "url": "https://api.github.com/repos/LukasReschke/ID3Parser/zipball/62f4de76d4eaa9ea13c66dacc1f22977dace6638",
+                "reference": "62f4de76d4eaa9ea13c66dacc1f22977dace6638",
                 "shasum": ""
             },
             "require": {
@@ -1364,7 +1364,7 @@
                 "php",
                 "tags"
             ],
-            "time": "2016-04-04T09:34:50+00:00"
+            "time": "2016-09-22T15:10:54+00:00"
         },
         {
             "name": "mcnetic/zipstreamer",
@@ -1506,18 +1506,23 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/natxet/CssMin.git",
-                "reference": "003920e783c568c2d8fdf03999eebefb8479092a"
+                "reference": "9580f5448f05a82c96cfe6c7063a77807d8ec56d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/natxet/CssMin/zipball/003920e783c568c2d8fdf03999eebefb8479092a",
-                "reference": "003920e783c568c2d8fdf03999eebefb8479092a",
+                "url": "https://api.github.com/repos/natxet/CssMin/zipball/9580f5448f05a82c96cfe6c7063a77807d8ec56d",
+                "reference": "9580f5448f05a82c96cfe6c7063a77807d8ec56d",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.0"
             },
             "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                }
+            },
             "autoload": {
                 "classmap": [
                     "src/"
@@ -1540,7 +1545,7 @@
                 "css",
                 "minify"
             ],
-            "time": "2014-09-10T14:34:00+00:00"
+            "time": "2017-10-04T16:54:00+00:00"
         },
         {
             "name": "nikic/php-parser",
