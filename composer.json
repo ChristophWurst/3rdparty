@@ -40,7 +40,7 @@
 		"patchwork/jsqueeze": "^2.0",
 		"sabre/dav": "^3.2.0",
 		"symfony/polyfill-php70": "^1.0",
-		"lukasreschke/id3parser": "^0.0.1",
+		"lukasreschke/id3parser": "^0.0.3",
 		"stecman/symfony-console-completion": "^0.7.0",
 		"leafo/scssphp": "^0.6.6",
 		"icewind/searchdav": "0.3.1",
